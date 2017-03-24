@@ -10,7 +10,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-static-top col-md-8 col-md-offset-2" role="navigation">
+    <div class="content col-md-8 col-md-offset-2">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container col-md-12">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
@@ -32,5 +33,6 @@
       </div>
     </nav>
     <%= yield %>
+    </div>
   </body>
 </html>
